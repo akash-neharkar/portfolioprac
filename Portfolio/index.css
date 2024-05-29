@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: rgb(61, 61, 164);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(9, 9, 81);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(199, 110, 201);
+    font-size: 1.04rem;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 34px 40px;
+  }
+  .firstSection > div {
+    width: 30%;
+  }
+  .leftSection {
+    width: 30%;
+    font-size: 1.9rem;
+  }
+  .leftSection .btn {
+    padding: 4px;
+    background-color: #dad0d0;
+    border: 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .purple {
+    color: rgb(168, 140, 195);
+  }
+  #element {
+    color: rgb(168, 140, 195);
+  }
+  .midSection{
+    height: 50vh;
+  }
+  .midtext{
+    font-size: 23px;
+    position: absolute;
+    top: 100vh;
+    right: 144vh; 
+  }
+  .midSection .vertical{
+    height: 36vh;
+    position: absolute;
+    top: 100vh;
+    right: 125vh;
+    width: 2px;
+    background-color: white;
+    margin: 0 85px;;
+  }
+  .midpython img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 100vh;
+    right: 123vh;
+  }
+  .midjava img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 100vh;
+    right: 110vh;
+  }
+  .midjavascript img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 100vh;
+    right: 97vh;
+  }
+  .midHTML img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 100vh;
+    right: 84vh;
+  }
+  .midCSS img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 100vh;
+    right: 71vh;
+  }
+  .midreact img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 100vh;
+    right: 58vh;
+  }
+  .midmySQL img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 113vh;
+    right: 123vh;
+  }
+  .midMongoDb img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 113vh;
+    right: 110vh;
+  }
+  .midConvex img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 113vh;
+    right: 97vh;
+  }
+  .midFirebase img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 113vh;
+    right: 84vh;
+  }
+  .midGithub img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 113vh;
+    right: 71vh;
+  }
+  .midVSstudio img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 113vh;
+    right: 58vh;
+  }
+  .midArduino img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 126vh;
+    right: 123vh;
+  }
+  .midMatlab img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 126vh;
+    right: 110vh;
+  }
+  .secondSection {
+    max-width: 95vw;
+    margin: 40px 105px;
+    height: 80vh;
+  }
+  .secondSection h1 {
+    font-size: 1.6rem;
+  }
+  .secondSection .box {
+    background: white;
+    width: 70vw;
+    height: 2px;
+    margin: 82px 0;
+    display: flex;
+  }
+  .text-gray {
+    color: rgb(172, 168, 168);
+    font: 100;
+  }
+  .secondSection .vertical {
+    height: 90px;
+    width: 2px;
+    background-color: white;
+    margin: 0 85px;
+  }
+  .image-top {
+    position: relative;
+    width: 5vh;
+    top: -40px;
+    height: 5vh;
+    right: 8px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 67px;
+    width: 150px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 79px;
+    width: 150px;
+    font-size: 11px;
+    color: rgb(176, 172, 172);
+  }
+  .footer {
+    background-color: #3a3838;
+    display: flex;
+    height: 180px;
+    padding: 23px 60px;
+    justify-content: space-evenly;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer > div {
+    margin-top: 32px;
+    margin-right: 95px;
+  }
+  footer .footer-rights {
+    color: gray;
+    text-align: center;
+    background-color: #3a3838;
+    padding: 4px 0;
+  }
+  .footer-second ul {
+    list-style-type: none;
+    padding: 0; 
+  }
+  .footer-second ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .social-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .social-buttons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .social-buttons li:last-child {
+    margin-right: 0;
+  }
+  .social-buttons li a {
+    size: 22px; */
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+  }
+  .social-buttons li a:hover {
+    background-color: #ddd;
+  }
