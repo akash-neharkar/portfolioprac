@@ -134,7 +134,7 @@
     top: 113vh;
     right: 110vh;
   }
-  .midDiscord img{
+  .midVercel img{
     width: 69px;
     height: 63px;
     position: absolute;
@@ -175,6 +175,13 @@
     position: absolute;
     top: 126vh;
     right: 110vh;
+  }
+  .midDiscord img{
+    width: 69px;
+    height: 63px;
+    position: absolute;
+    top: 126vh;
+    right: 97vh;
   }
   .secondSection {
     max-width: 95vw;
