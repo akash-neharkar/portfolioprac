@@ -230,7 +230,7 @@ a{
 
 .secondSection .box {
   background: white;
-  width: 60vw;
+  width: 50vw;
   height: 2px;
   margin: 82px 0;
   display: flex;
@@ -258,13 +258,13 @@ a{
 
 .vertical-title {
   position: relative;
-  top: 53px;
+  top: 28px;
   width: 190px;
 }
 
 .vertical-desc {
   position: relative;
-  top: 60px;
+  top: 40px;
   width: 190px;
   font-size: 11px;
   color: rgb(176, 172, 172);
